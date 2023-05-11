@@ -1,7 +1,8 @@
-import pengguna.Mhs;
+import pengguna.*;
+
 class Main {
     public static void main(String[] args) {
-        Mhs mhs = new Mhs("Hanugra", "G.111.20.0058", 6);
+        Mhs mhs = new Mhs("username", "password");
 
     mhs.setNama("Hanugra Jehova");
     mhs.setNim("G.111.20.0058");
@@ -10,8 +11,8 @@ class Main {
     System.out.println("Nama Mhs :" + mhs.getNama());
     System.out.println("Nim Mhs: " + mhs.getNim());
     System.out.println("Smt Mhs: " + mhs.getSmt());
-    //System.out.println("Username: " + mhs.getUsername());
-    //System.out.println("Password: " + mhs.getPassword());
+    System.out.println("Username: " + mhs.getUsername());
+    System.out.println("Password: " + mhs.getPassword());
 
 
     }
