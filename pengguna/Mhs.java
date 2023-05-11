@@ -7,7 +7,7 @@ package pengguna;
     private int smt ;
     
     public Mhs (String username, String password) {
-        super("username", "password");
+        super("hanugra", "jehova");
 
     }
    
