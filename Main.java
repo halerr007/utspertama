@@ -5,7 +5,7 @@ class Main {
 
     mhs.setNama("Hanugra Jehova");
     mhs.setNim("G.111.20.0058");
-    mhs.setSmt("5");
+    mhs.setSmt (6);
 
     System.out.println("Nama Mhs :" + mhs.getNama());
     System.out.println("Nim Mhs: " + mhs.getNim());
